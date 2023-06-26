@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Plantation Website</title>
+    <link rel="stylesheet" href="/homestyle.css">
+    <style>
+        
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background-image: url('bgi3.0.jpg');
+  background-size:1700px 1250px;
+  background-repeat: no-repeat;
+  background-position-y:bottom;
+ 
+}
+
+
+header {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-family: sofia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+  background-color: #333333;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  height: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  float: left;
+  margin-right: 15px;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px;
+  height: 1000px;
+  color: #ffffff;
+}
+
+
+.container p {
+  line-height: 1.5;
+}
+
+.banner {
+  background-image: url('tree-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+ 
+.boxes{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px; 
+}
+
+.box{
+  background-color: rgba(192, 192, 192, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2.5px 2.5px 2.5px;
+  transition: background-color 0.3s ease-in-out;
+  height:250px;
+  width: 250px;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+}
+
+/*.inbox{
+  border: 2px solid black;
+  border-radius:5px;
+  height:125px;
+  width:125px;
+  margin-top: 45px;
+  margin-left:15px;
+}*/
+.last{
+  align-items: center;
+  text-decoration: none;
+}
+.joinbtn{
+  padding: 20px;
+  border-radius: 20px;
+  width: 150px;
+}
+.donatebtn{
+  padding: 20px;
+  border-radius: 20px;
+  width: 150px;
+}
+button:hover{
+  background-color: rgba(0, 255, 255, 0.5);
+  cursor: pointer;
+}
+a{
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  font-size: medium;
+}
+    </style>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<body>
+  <header>
+    <img src="pradeep logo.jpg" alt="This is logo">
+    <h1>The Tree Wisher</h1>
+  </header>
+  
+  <nav>
+    <a href="http://127.0.0.1:5500/pradiphome2.html">Home</a>
+    <a href="http://127.0.0.1:5500/pradipabout.html">About</a>
+    <a href="http://127.0.0.1:5500/pradeepcontact.html">Contact Us</a>
+    <a href="http://127.0.0.1:5500/treelogin.html">Log in</a>
+    <a href="http://127.0.0.1:5500/signup.html">Sign In</a>
+  </nav>
+  
+  <div class="banner"></div>
+  
+  <div class="container">
+    <h2>Welcome to our Home!</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit risus non diam lacinia dictum. Nullam pulvinar lorem at erat posuere sagittis. In bibendum felis vitae tortor finibus, non dictum lorem tincidunt. Aliquam vestibulum felis et tellus consequat posuere. Donec eu placerat libero. Morbi viverra eu ex non malesuada.</p>
+  <hr>
+  <h2>Our Process</h2>
+  <div class="boxes">
+    <div class="box">
+        <img src="pradeep step 1.jpg" alt="it is just a trial" >
+    </div>
+    
+    <div class="box">
+      <img src="pradeep step 2.jpg" alt="it is just a trial" >
+    </div>
+    
+    <div class="box">
+      <img src="pradeep step 3.jpg" alt="it is just a trial" >
+    </div>
+    
+    <div class="box">
+      <img src="pradeep step 4.jpg" alt="it is just a trial" >
+    </div>
+
+    <div class="box">
+      <img src="pradeep step 5.jpg" alt="it is just a trial" >
+    </div>
+
+    <div class="box">
+      <img src="pradeep step 6.jpg" alt="it is just a trial" >
+    </div>
+    <br><br>
+    <div class="last">
+      <button type="button" class="joinbtn"><a href="http://127.0.0.1:5500/signup.html">Join Us</a></button>
+      <button type="button" class="donatebtn"><a href="http://127.0.0.1:5500/pradeeppayment.html">Donate Now</a></button>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+    &copy; 2023 Tree Plantation Website. All rights reserved.
+  </footer>
+</body>
+</html>
+
